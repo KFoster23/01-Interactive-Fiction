@@ -1,0 +1,462 @@
+{
+  "passages": [
+    {
+      "text": "You wake up in a cold dark room, barely seeing what is in front of you. In the darkness you are able to make out a ladder going up, a hallway with a light at the end, and another dark hallway. Before you make a choice, you pick up a rock and carve an X on the wall in case you get lost.\n[[Proceed down the dark hallway->Darkness]]\n[[Climb up the ladder->Upper Floor]]\n[[Follow the light->Lightened Hallway]]",
+      "links": [
+        {
+          "name": "Proceed down the dark hallway",
+          "link": "Darkness",
+          "pid": "2"
+        },
+        {
+          "name": "Climb up the ladder",
+          "link": "Upper Floor",
+          "pid": "3"
+        },
+        {
+          "name": "Follow the light",
+          "link": "Lightened Hallway",
+          "pid": "4"
+        }
+      ],
+      "name": "Cold Room ",
+      "pid": "1",
+      "position": {
+        "x": "395",
+        "y": "85"
+      }
+    },
+    {
+      "text": "You enter the darkness and hear rapid breathing and footsteps coming from the hallway. You only have a few seconds to decide whether to hide or approach. There is a doorway that you can hide in, but there is a chance the person will turn that way.\n[[Enter the doorway->Selfish]]\n[[Try and approach the person->Companion]]",
+      "links": [
+        {
+          "name": "Enter the doorway",
+          "link": "Selfish",
+          "pid": "18"
+        },
+        {
+          "name": "Try and approach the person",
+          "link": "Companion",
+          "pid": "19"
+        }
+      ],
+      "name": "Darkness",
+      "pid": "2",
+      "position": {
+        "x": "281",
+        "y": "291"
+      }
+    },
+    {
+      "text": "You climb up the ladder and find yourself in a more well lit room. You find a hallway that continues to get more and more bright, and another with the sound of dripping water in it. \n[[Follow the light->Blinding Light]]\n[[Follow the Dripping Water->Pipes]]",
+      "links": [
+        {
+          "name": "Follow the light",
+          "link": "Blinding Light",
+          "pid": "24"
+        },
+        {
+          "name": "Follow the Dripping Water",
+          "link": "Pipes",
+          "pid": "25"
+        }
+      ],
+      "name": "Upper Floor",
+      "pid": "3",
+      "position": {
+        "x": "168",
+        "y": "72"
+      }
+    },
+    {
+      "text": "You follow the light to the end of a corridor, where you can see a path lowly lit and one that is complete darkness.\n[[Go down the lowly lit path ->Lowly Lit Path]]\n[[Proceed into the darkness-> Darkened Path ]]",
+      "links": [
+        {
+          "name": "Go down the lowly lit path ",
+          "link": "Lowly Lit Path",
+          "pid": "5"
+        },
+        {
+          "name": "Proceed into the darkness",
+          "link": " Darkened Path ",
+          "pid": "6"
+        }
+      ],
+      "name": "Lightened Hallway",
+      "pid": "4",
+      "position": {
+        "x": "565",
+        "y": "221"
+      }
+    },
+    {
+      "text": "As you continue to follow the light, you suddenly hear laughter and memories begin to flash through your head. You walk into the next room and realize it is from your childhood.You continue to see memory after memory and you completely forget about finding a way out, you still see the light. At the same time, you want to stay with your friends and family. \n[[Stay in your memories->Chasing Memories ]]\n[[Continue to follow the light->Moving On]]",
+      "links": [
+        {
+          "name": "Stay in your memories",
+          "link": "Chasing Memories ",
+          "pid": "7"
+        },
+        {
+          "name": "Continue to follow the light",
+          "link": "Moving On",
+          "pid": "8"
+        }
+      ],
+      "name": "Lowly Lit Path",
+      "pid": "5",
+      "position": {
+        "x": "559",
+        "y": "383"
+      }
+    },
+    {
+      "text": "As you went down the darkened path, you are in complete darkness. You stumble into a room that is empty, except for a chest full of gold. You also find another door, which strange sounds are coming from. You can try to hide but it would not be worth it, since there is only a chest in the room. \n[[Grab as much gold as you can carry->Rich for Life]]\n[[Proceed towards the noises and face whatever they may be->Strange Sounds]]",
+      "links": [
+        {
+          "name": "Grab as much gold as you can carry",
+          "link": "Rich for Life",
+          "pid": "9"
+        },
+        {
+          "name": "Proceed towards the noises and face whatever they may be",
+          "link": "Strange Sounds",
+          "pid": "10"
+        }
+      ],
+      "name": " Darkened Path ",
+      "pid": "6",
+      "position": {
+        "x": "763",
+        "y": "252"
+      }
+    },
+    {
+      "text": "After choosing to stay in your memories, the light fades away and you can no longer find a way out, but it does not matter for you are at peace only seeing your friends and family. You do not concern yourself with the dark room you woke up in, you just value living in your memory. You stay this way for eternity. \n[[You got the Chasing Memories Ending-start again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "You got the Chasing Memories Ending-start again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Chasing Memories ",
+      "pid": "7",
+      "position": {
+        "x": "443",
+        "y": "518"
+      }
+    },
+    {
+      "text": "After deciding you will continue to push on, you follow the light until you find a door that has such a bright light you cannot see what is in the door. Reluctant for a few seconds, you decide to step through the door and realize you are in Heaven. You do not know how you died or what happened, but you are relieved to have made it to Heaven.\n[[You got the Heaven ending-start again?->Cold Room ]] ",
+      "links": [
+        {
+          "name": "You got the Heaven ending-start again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Moving On",
+      "pid": "8",
+      "position": {
+        "x": "636",
+        "y": "519"
+      }
+    },
+    {
+      "text": "You quickly stuff your pockets full of gold. As you just got as much gold as you can carry, a trapdoor opens up beneath your feet. You fall and feel a sharp pain. When you wake up, you only have a single gold coin left despite stuffing your pockets full. Next you realize a figure in a boat rows up, you must give the coin to them to reach the Underworld.\n[[Give the figure your only gold coin->Underworld]]\n[[Decline and keep the gold coin for yourself->Limbo]]",
+      "links": [
+        {
+          "name": "Give the figure your only gold coin",
+          "link": "Underworld",
+          "pid": "11"
+        },
+        {
+          "name": "Decline and keep the gold coin for yourself",
+          "link": "Limbo",
+          "pid": "12"
+        }
+      ],
+      "name": "Rich for Life",
+      "pid": "9",
+      "position": {
+        "x": "733",
+        "y": "108"
+      }
+    },
+    {
+      "text": "You proceed towards the sounds, running through hallways to try and find the source of the noises. After passing several doorways, you start to recognize the sounds as voices that are getting closer with each passing second.You never thought about who the voices could be, so you have to think about what to do.\n[[Approach the voices->Voices]]\n[[Hide in a nearby room->Hidden]]",
+      "links": [
+        {
+          "name": "Approach the voices",
+          "link": "Voices",
+          "pid": "13"
+        },
+        {
+          "name": "Hide in a nearby room",
+          "link": "Hidden",
+          "pid": "14"
+        }
+      ],
+      "name": "Strange Sounds",
+      "pid": "10",
+      "position": {
+        "x": "917",
+        "y": "252"
+      }
+    },
+    {
+      "text": "You pay the ferryman and get rowed to the Underworld. Your greed was what led to you being in the Underworld rather than Heaven. For that, you have the eternal torment of having large quantities of money but you will never have enough money to buy anything. Your money is never enough but you always have an extreme amount.\n[[Say hello to Hades for Me Ending-Start Again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "Say hello to Hades for Me Ending-Start Again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Underworld",
+      "pid": "11",
+      "position": {
+        "x": "910",
+        "y": "30"
+      }
+    },
+    {
+      "text": "After declining to pay the ferryman, you wake up back in the cold room that you started in. You debate on whether or not to try again to escape. You decide that even if you die, you would rather attempt escape than stay in the dark room.\n[[You got the Limbo Ending-Start Again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "You got the Limbo Ending-Start Again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Limbo",
+      "pid": "12",
+      "position": {
+        "x": "591",
+        "y": "35"
+      }
+    },
+    {
+      "text": "You decide to approach the voices, in hopes of them being helpful. What you find instead is two men standing there with a knife dripping with blood. You quickly try and hide but it was too late and they spotted you. \n[[Run away->Death]]\n[[Try your luck with the murderers->Salvation]]",
+      "links": [
+        {
+          "name": "Run away",
+          "link": "Death",
+          "pid": "15"
+        },
+        {
+          "name": "Try your luck with the murderers",
+          "link": "Salvation",
+          "pid": "16"
+        }
+      ],
+      "name": "Voices",
+      "pid": "13",
+      "position": {
+        "x": "1089",
+        "y": "210"
+      }
+    },
+    {
+      "text": "You hide as the voices pass, remaining hidden until you no longer hear the voices. You search the room only to find an X carved into the wall. At this moment, you realized that you were back at the cold room you woke up in. You break down, catch your beath, and decide to keep going until you escape.\n[[Start Again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "Start Again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Hidden",
+      "pid": "14",
+      "position": {
+        "x": "992",
+        "y": "402"
+      }
+    },
+    {
+      "text": "You start running as fast as you can away from the two men, refusing to look behind you because you fear they are catching up. As you run, you fear of being caught rises to the point where you trip on yourself. You turn around and see the men standing over you, the last thing you see is the knife being thrusted at you. Then there is nothing but a sharp pain and darkness.\n[[You got the Death in the Dark Ending-Start Again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "You got the Death in the Dark Ending-Start Again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Death",
+      "pid": "15",
+      "position": {
+        "x": "1129",
+        "y": "50"
+      }
+    },
+    {
+      "text": "You decide to try your luck with the two men. You approach the two men and explain the situation. Once you finish speaking, an eerie silence falls over the three of you. Out of nowhere, they start trying to attack you. You start fighting back as best as you can, deflecting their punches and dodging the knife. The problem is that there is two of them and you are slowly losing. You fail to dodge in time and get cut on your leg, tumbling to the ground. As the two men stand over you, a bright light is flashed on the three of you as two loud bangs ran through the corridor. Before you pass out all you here are voices saying this is bad.\n[[Pass out from blood loss->Hospital]]",
+      "links": [
+        {
+          "name": "Pass out from blood loss",
+          "link": "Hospital",
+          "pid": "17"
+        }
+      ],
+      "name": "Salvation",
+      "pid": "16",
+      "position": {
+        "x": "1164",
+        "y": "360"
+      }
+    },
+    {
+      "text": "You awaken in a hospital, with a bandage wrapped around your leg. A nurse walks in as you struggle to sit up. You proceed to ask what happened, but she walks out and two officers walk in. They explain how two men were abducting people and putting them in a labryinth as a messed up way of hunting them down. You were the only survivor of the labryinth and they did not find anyone else.\n[[Only Survivor Ending-Try Again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "Only Survivor Ending-Try Again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Hospital",
+      "pid": "17",
+      "position": {
+        "x": "1164",
+        "y": "510"
+      }
+    },
+    {
+      "text": "You let the person run pass, then suddenly hear two pairs of footsteps following them. The footsteps start to slow, and you try to hold your breath. Next thing you know, two men stop outside the doorway and walk in. You are cornered and trap, the two men overpower you and one of them stabs you with a knife. You fall to the ground bleeding out and think that maybe this is karma for not trying to help.\n[[Yikes the Selfish Ending-Try Again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "Yikes the Selfish Ending-Try Again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Selfish",
+      "pid": "18",
+      "position": {
+        "x": "122",
+        "y": "341"
+      }
+    },
+    {
+      "text": "You catch the person and see nothing but fear on their face. They whisper that they are running from two men with a knife. In fear of you both getting caught, you pull them into the nearby doorway and you hear two sets of footsteps walk past. The stranger thanks you and the two of you continue down the corridor away from the men. You want to go one path but the stranger wants to go the other. \n[[Split up->Broken Wall]]\n[[Stick together->Conflict]]",
+      "links": [
+        {
+          "name": "Split up",
+          "link": "Broken Wall",
+          "pid": "20"
+        },
+        {
+          "name": "Stick together",
+          "link": "Conflict",
+          "pid": "21"
+        }
+      ],
+      "name": "Companion",
+      "pid": "19",
+      "position": {
+        "x": "285",
+        "y": "443"
+      }
+    },
+    {
+      "text": "You split up from the stranger to try your own way out. Fortunately for you, there is a wall that is falling apart. You try to force it down, but alone you are not strong enough. You can double back to get the stranger's help or continue alone.\n[[Continue Trying->Solo]]\n[[Get the stranger->Together]]",
+      "links": [
+        {
+          "name": "Continue Trying",
+          "link": "Solo",
+          "pid": "22"
+        },
+        {
+          "name": "Get the stranger",
+          "link": "Together",
+          "pid": "23"
+        }
+      ],
+      "name": "Broken Wall",
+      "pid": "20",
+      "position": {
+        "x": "210",
+        "y": "593"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Conflict",
+      "pid": "21",
+      "position": {
+        "x": "323",
+        "y": "593"
+      }
+    },
+    {
+      "text": "You continue to try the wall by youself. You start to see the wall crumble and push it down, with the destruction of the wall generating a large amount of noise. You see daylight and step out into a forest and find a road. You then see the stranger step out of the wall, as you grin to be out of the labryinth, you feel a sharp pain in your back. The stranger stabbed you for attempting to leave them behind. \n[[You got the Betrayed Ending-Try Again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "You got the Betrayed Ending-Try Again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Solo",
+      "pid": "22",
+      "position": {
+        "x": "56",
+        "y": "630"
+      }
+    },
+    {
+      "text": "You find the stranger and inform them of the wall, together you two return to the wall that is in falling apart. You countdown and both start pushing against the wall. The wall slowly starts to give and you see light on the other side. You push the wall down and the two of you step out into daylight. You turn around to see the two men step out from the darkness, now with guns. You and the stranger try to run but both get shot and die.\n[[You got the So Close but So Far Ending-Try Again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "You got the So Close but So Far Ending-Try Again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Together",
+      "pid": "23",
+      "position": {
+        "x": "203",
+        "y": "754"
+      }
+    },
+    {
+      "text": "You follow the increasingly bright lights and find yourself being blinded by lights.You stumble and find a door that leads into the dark again. You then hear the sound of an engine and discover that you are close to a road. You then realize it is not a car engine, but a train and you noticed that a light is getting closer. The last thing you feel is an impact greater than you have ever felt. \n[[Crossed the Tracks Ending-Try Again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "Crossed the Tracks Ending-Try Again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Blinding Light",
+      "pid": "24",
+      "position": {
+        "x": "49",
+        "y": "0"
+      }
+    },
+    {
+      "text": "You follow the dripping water to find a large pipe flowing overhead. You decide that a good way to escape would be following the water. You see a rock on the ground and start smashing the pipe. The pipe gives and water comes rushing out. You climb into the pipe and continue to crawl through it. You see light and fall out of the pipe into a sewage dump. As disgusting as it is, you are happy to be out. You proceed to find a road and follow it to a city, getting help and finding your way back home.\n[[I Swear This is a Movie Reference Ending-Try again?->Cold Room ]]",
+      "links": [
+        {
+          "name": "I Swear This is a Movie Reference Ending-Try again?",
+          "link": "Cold Room ",
+          "pid": "1"
+        }
+      ],
+      "name": "Pipes",
+      "pid": "25",
+      "position": {
+        "x": "66",
+        "y": "185"
+      }
+    }
+  ],
+  "name": "Labyrinth",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.12",
+  "ifid": "88D512A3-22AD-4B3F-BE8E-8D20B9F42CED"
+}
